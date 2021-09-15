@@ -2,17 +2,17 @@ public class code {
 
         public void information (int temp, boolean breeze) {
             if (temp > 70) {
-                System.out.println("The weather is " + temp + ".");
+                System.out.println("The weather is " + temp + ". It's hot!");
             }
 
             else if (temp == 70 && breeze == true) {
-                System.out.println("The weather is perfect today!");
+                System.out.println("The weather is perfect today! It's 70 degrees and breezy.");
             }
             else if (temp == 70 && breeze == false) {
-                System.out.println("It's hot today!");
+                System.out.println("It's hot today! It's 70 degrees and no breeze :(.");
             }
             else if (temp > 33) {
-                System.out.println("The weather is kinda chilly today.");
+                System.out.println("The weather is kinda chilly today. It's " + temp + " degrees.");
             }
             else if (temp <= 33)
             {
