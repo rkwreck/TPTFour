@@ -1,5 +1,10 @@
+//purpose: give information about the weather based on the temperature and whether it's breezy
+//programmer: Rini K
+
+//create a main class
 public class code {
 
+        //create an information method
         public void information (int temp, boolean breeze) {
             if (temp > 70) {
                 System.out.println("The weather is " + temp + ". It's hot!");
@@ -21,6 +26,7 @@ public class code {
             }
             }
 
+        //inside Main, call the methods on five new objects that test all if statement cases
         public static void main(String[] args) {
             code locationOne = new code();
             locationOne.information(32, false);
