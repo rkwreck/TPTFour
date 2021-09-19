@@ -26,18 +26,10 @@ public class code {
             }
             }
 
-        //[test cases for each conditional, not included in question]
+        //[one test case, not included in question]
         public static void main(String[] args) {
             code locationOne = new code();
             locationOne.information(32, false);
-            code locationTwo = new code();
-            locationTwo.information(60, true);
-            code locationThree = new code();
-            locationThree.information(70, false);
-            code locationFour = new code();
-            locationFour.information(70, true);
-            code locationFive = new code();
-            locationFive.information(90, false);
 
         }
         }
