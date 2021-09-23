@@ -29,14 +29,17 @@ public class code {
         //[one test case, not included in question]
         public static void main(String[] args) {
             code locationOne = new code();
-            locationOne.information(32, false);
+          //  locationOne.information(32, false);
+            locationOne.information(60, true);
 
         }
         }
 
-//What will be the output when temp is 60 and breeze is true?
-//a. It's hot today! IT's 60 degrees and no breeze :(.
-//b. The weather is 60 degrees. It's hot!
-//c. The weather is perfect today! It's 60 degrees and breezy.
-//d. Nothing will be printed because there is an error.
-//e. The weather is snowy and cold today. The weather is 60 degrees.
+/*
+What will be the output when temp is 60 and breeze is true?
+a. It's hot today! IT's 60 degrees and no breeze :(.
+b. The weather is 60 degrees. It's hot!
+c. The weather is kinda chilly today. It's 60 degrees.
+d. Nothing will be printed because there is an error.
+e. The weather is snowy and cold today. The weather is 60 degrees.
+*/
